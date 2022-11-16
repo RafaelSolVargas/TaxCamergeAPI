@@ -7,8 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// // Configure 5000 as the port
-// builder.WebHost.UseUrls($"http://*:5000");
+// Configure 5001 as the port
+builder.WebHost.UseUrls($"http://*:5001");
 
 var app = builder.Build();
 
